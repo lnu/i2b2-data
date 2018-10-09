@@ -1,4 +1,4 @@
-create  PROCEDURE   "INSERT_ENCOUNTERVISIT_FROMTEMP" (@tempTableName  VARCHAR(500), @upload_id int ,
+create  PROCEDURE   INSERT_ENCOUNTERVISIT_FROMTEMP (@tempTableName  VARCHAR(500), @upload_id int ,
  @errorMsg varchar(max) = NULL OUTPUT) 
 AS 
 

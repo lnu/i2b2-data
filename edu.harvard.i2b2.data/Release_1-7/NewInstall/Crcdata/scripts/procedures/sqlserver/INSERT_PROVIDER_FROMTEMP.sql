@@ -1,4 +1,4 @@
-create  PROCEDURE  "INSERT_PROVIDER_FROMTEMP" (@tempProviderTableName VARCHAR(500), @upload_id INT,
+create  PROCEDURE  INSERT_PROVIDER_FROMTEMP (@tempProviderTableName VARCHAR(500), @upload_id INT,
   @errorMsg varchar(max)  = NULL OUTPUT) 
 AS 
 
